@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+
+    >
+
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:gravity="left"
+            android:lines="1"
+            android:text="Add User/Child"
+            android:textSize="15dp"
+            android:id="@+id/register"
+            android:onClick="register"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="160dp"
+            android:clickable="true"
+
+            android:lines="1"
+            android:text="Log-Out"
+            android:textSize="15dp"
+            android:id="@+id/logout"
+
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        android:id="@+id/imageview"/>
+    <Button
+        android:id="@+id/refress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Refresh" />
+
+    <Button
+        android:id="@+id/alarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Turn ON Alarm" />
+    <Button
+        android:id="@+id/gate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Gate"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/door"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Door"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

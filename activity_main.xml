@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.ndivhuwo.hssapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Smart System"
+        android:lines="1"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="We bring Safety and Technology"
+        android:textSize="15dp"
+        android:lines="1"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25dp"
+        android:lines="1"
+        android:gravity="center_horizontal"
+        android:ems="10"
+        android:id="@+id/deviceNumber"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Your device Number"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bSubmit"/>
+
+</LinearLayout>
