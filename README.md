@@ -1,8 +1,8 @@
 # HSSAPP
 
 
-This is Application that i developed to test My eletronics skills.
+This is my finaly project for my diploma at Tshwane University of Technology. 
 
-It have Android application, that i developed using Java.
-it have also PHP code that is used to connect Android application to Database.
-It have also Python application that is developed to command sensor like motor, camera , and distance sensor. 
+It have Android application, that i developed using Java. It work as a remote to open gate, door and it can switch on/off alarm. 
+It have backend PHP application that to connect Android application, Raspberry and database together .
+It have also Python application that run on Raspberry PI 3 to control component connected to the rasberry like motor, camera, and distance sensor. 
